@@ -79,4 +79,11 @@
     End Sub
 
     
+    Private Sub Label5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+    End Sub
+
+    Private Sub TextBox4_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox4.TextChanged
+
+    End Sub
 End Class

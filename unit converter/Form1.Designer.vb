@@ -27,7 +27,6 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -90,18 +89,6 @@ Partial Class Form1
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "UNIT   CONVERTER"
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Black
-        Me.Label5.Font = New System.Drawing.Font("Courier New", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label5.Location = New System.Drawing.Point(113, 318)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(224, 14)
-        Me.Label5.TabIndex = 9
-        Me.Label5.Text = "Copyright VineSoft Applications"
-        '
         'ComboBox3
         '
         Me.ComboBox3.AllowDrop = True
@@ -136,7 +123,7 @@ Partial Class Form1
         Me.TextBox4.TabIndex = 2
         Me.TextBox4.TabStop = False
         Me.TextBox4.Tag = ""
-        Me.TextBox4.Text = "     WELCOME TO VineConvertor"
+        Me.TextBox4.Text = "     "
         '
         'TextBox1
         '
@@ -166,7 +153,6 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -188,7 +174,6 @@ Partial Class Form1
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
     Public WithEvents TextBox4 As System.Windows.Forms.TextBox
     Public WithEvents ComboBox3 As System.Windows.Forms.ComboBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
